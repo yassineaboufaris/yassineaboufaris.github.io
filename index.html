@@ -83,10 +83,12 @@
                   var today = new Date();
 
                   var difference = today.getFullYear() - dateBirth.getFullYear();
-                  if((today.getMonth() - dateBirth.getMonth()) != 0){
+                  if(today.getMonth() == dateBirth.getMonth()){
+                    if(today.getDate() < dateBirth.getDate())
+                      difference -= 1;
+                  }else if(today.getMonth() < dateBirth.getMonth())
                     difference -= 1;
-                  }
-
+                  
                   document.write(difference);
                 </script>
               </div>
