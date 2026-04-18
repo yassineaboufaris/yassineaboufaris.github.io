@@ -85,6 +85,28 @@ function render(cfg) {
     sl.appendChild(a);
   });
 
+
+  // ── Contact form → mailto ──
+  document.getElementById('btn-send').addEventListener('click', () => {
+    const nome    = document.querySelector('input[type="text"]').value.trim();
+    const email   = document.querySelector('input[type="email"]').value.trim();
+    const message = document.querySelector('textarea').value.trim();
+
+    if (!email || !message) {
+      alert('Inserisci almeno email e messaggio.');
+      return;
+    }
+
+    const subject = encodeURIComponent('Contatto dal portfolio' + (nome ? ' — ' + nome : ''));
+    const body    = encodeURIComponent(
+      (nome ? 'Nome: ' + nome + '\n' : '') +
+      'Email: ' + email + '\n\n' +
+      message
+    );
+
+    window.location.href = 'mailto:' + meta.email + '?subject=' + subject + '&body=' + body;
+  });
+
   // ── Footer ──
   document.getElementById('footer-name').textContent =
     '© ' + new Date().getFullYear() + ' ' + meta.name;
