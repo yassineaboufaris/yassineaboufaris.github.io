@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "name": "Yassine Aboufaris",
+    "role": "Sviluppatore Full-Stack",
+    "location": "Brescia, IT",
+    "domain": "ya.dev",
+    "email": "yassineaboufaris00@gmail.com",
+    "available": false,
+    "availabilityNote": ""
+  },
+
+  "hero": {
+    "greeting": "Ciao, sono",
+    "tagline": "Full-stack developer su Panthera ERP — Angular, Java, DB2, REST API. Moduli HR e Servizi, end-to-end."
+  },
+
+  "about": {
+    "short": "Full-stack developer su Panthera ERP (Angular, Java, DB2, REST API). Mi occupo dei moduli HR e Servizi dall'end-to-end, dal frontend alle API backend.",
+    "extended": "Ho contribuito all'integrazione di funzionalità AI direttamente in Panthera — elaborazione di file Excel e traduzione automatica dei contenuti — per semplificare operazioni ripetitive agli utenti finali.",
+    "skills": [
+      "Angular", "TypeScript", "Java", "DB2",
+      "SQL", "Javascript",
+      "HTML / CSS", "Git", "REST API"
+    ]
+  },
+
+  "experience": [
+    {
+      "period": "Mag 2023 — Presente",
+      "role": "Sviluppatore Web Java",
+      "company": "Sisthema S.p.A. · A tempo pieno · Brescia, Italia",
+      "description": "Sviluppo e manutenzione di Panthera, occupandomi sia del frontend che del backend. Stack: Angular, HTML, CSS (frontend) · Java, DB2, SQL, API REST (backend) · Git. Sviluppo interfacce utente funzionali, scrivo e ottimizzo logica backend ed espongo API. Ho contribuito ai moduli HR e Servizi dall'end-to-end. Ultimamente sto integrando funzionalità AI direttamente in Panthera — elaborazione di file Excel e traduzione automatica — per semplificare operazioni ripetitive agli utenti finali."
+    },
+    {
+      "period": "set 2022 — nov 2022",
+      "role": "Sviluppatore Web Java · Stage",
+      "company": "Panthera Srl · Brescia, Italia",
+      "description": "Sviluppo e manutenzione ERP. Stack: Java, Java Swing, JSP, JavaScript, HTML & CSS."
+    },
+    {
+      "period": "Mag 2017 - Giu 2017",
+      "role": "Alternanza scuola lavoro",
+      "company": "Suprema Impianti S.r.l.",
+      "description": "Aiuto in officina e disegno tecnico con SolidWorks."
+    },
+    {
+      "period": "Mag 2018 - set 2018",
+      "role": "Alternanza scuola lavoro",
+      "company": "Ecosphera S.r.l.",
+      "description": "Inserimento dati sul database, tramite QGis e database privato aziendale. Sistemazione file registrati nel database. Programmazione con python per alcuni script di controllo file."
+    },
+    {
+      "period": "Mag 2017 - Giu 2017",
+      "role": "Alternanza scuola lavoro",
+      "company": "Suprema Impianti S.r.l.",
+      "description": "Aiuto in officina e disegno tecnico con SolidWorks."
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Marketplace libri universitari",
+      "description": "Piattaforma web per la compravendita di libri universitari tra studenti. Registrazione, login, dashboard personale per gestire i propri annunci e acquisti.",
+      "tags": ["HTML/CSS/JS", "SQL"],
+      "url": "https://venditalibriuni.altervista.org/"
+    },
+    {
+      "title": "Piattaforma di baratto",
+      "description": "Applicazione console in Java per lo scambio di oggetti tra utenti. Gestione di inserzioni, ricerca e proposta di baratto via interfaccia testuale.",
+      "tags": ["Java"],
+      "url": "https://github.com/DarioPiantoni/Baratto"
+    }
+  ],
+
+  "social": [
+    { "label": "GH", "name": "github.com/yassineaboufaris", "url": "https://github.com/yassineaboufaris" },
+    { "label": "LI", "name": "linkedin.com/in/yassine-aboufaris", "url": "https://www.linkedin.com/in/yassine-aboufaris/" },
+    { "label": "@",  "name": "yassineaboufaris00@gmail.com", "url": "mailto:yassineaboufaris00@gmail.com" }
+  ]
+}
