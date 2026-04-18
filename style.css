@@ -49,6 +49,7 @@ nav {
   border-bottom: 1px solid var(--border);
   padding: 0 2rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   height: 52px;
@@ -59,10 +60,15 @@ nav {
   font-size: 13px;
   color: var(--muted);
   letter-spacing: 0.02em;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
 }
 
 .nav-links {
   display: flex;
+  flex: 1;
+  justify-content: flex-start;
   gap: 1.5rem;
   list-style: none;
 }
